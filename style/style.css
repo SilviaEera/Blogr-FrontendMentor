@@ -172,17 +172,17 @@ ul {
   overflow: hidden;
 }
 
-.two .content-wrapper img {
+.two .content-wrapper img.editor-mobile {
   margin-top: 60px;
   width: 100%;
   margin-bottom: 80px;
 }
 
-.two .content-wrapper .text-block {
+.two .text-block {
   text-align: center;
 }
 
-.two .content-wrapper .text-block .editor {
+.two .text-block .editor {
   color: #1f3f5b;
   font-size: 30px;
   padding: 0 6px;
@@ -190,14 +190,14 @@ ul {
   font-weight: 600;
 }
 
-.two .content-wrapper .text-block .editor-info {
+.two .text-block .editor-info {
   margin-top: 40px;
   font-size: 20px;
   padding: 0 25px;
   margin-bottom: 60px;
 }
 
-.two .content-wrapper .text-block .management {
+.two .text-block .management {
   color: #1f3f5b;
   font-size: 30px;
   padding: 0 5px;
@@ -205,7 +205,7 @@ ul {
   font-weight: 600;
 }
 
-.two .content-wrapper .text-block .manage-info {
+.two .text-block .manage-info {
   margin-top: 40px;
   font-size: 20px;
   padding: 0 25px;
@@ -254,7 +254,7 @@ ul {
   overflow: hidden;
 }
 
-.four .content-wrapper img {
+.four .content-wrapper img.laptop-mobile {
   margin-top: 60px;
   width: 140%;
   margin-bottom: 80px;
@@ -292,6 +292,11 @@ ul {
   font-size: 20px;
   padding: 0 25px;
   margin-bottom: 80px;
+}
+
+.editor-desktop,
+.laptop-desktop {
+  display: none;
 }
 
 .three {
@@ -999,6 +1004,7 @@ ul {
     left: 60%;
     top: 8%;
     width: 62%;
+    display: block;
   }
   .two .content-wrapper .text-block {
     text-align: left;
@@ -1047,7 +1053,7 @@ ul {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: 300px 100px 100px 100px;
+    padding: 300px 100px 270px 100px;
   }
   .four .main-heading {
     color: #1f3f5b;
@@ -1077,9 +1083,10 @@ ul {
   }
   .four .content-wrapper img.laptop-desktop {
     position: absolute;
-    right: 60%;
-    top: 8%;
-    width: 62%;
+    right: 55%;
+    top: 10%;
+    width: 70%;
+    display: block;
   }
   .four .content-wrapper .text-block {
     text-align: right;

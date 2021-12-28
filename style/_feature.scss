@@ -5,7 +5,6 @@
     align-items: center;
     justify-content: center;
     // padding: 0 40px;
-
     .main-heading {
         color: $head-clr;
         font-size: 30px;
@@ -13,56 +12,60 @@
         font-family: "Overpass", sans-serif;
         font-weight: 600;
     }
-
     .content-wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         overflow: hidden;
-
-        img {
+        img.editor-mobile {
             margin-top: 60px;
             width: 100%;
             margin-bottom: 80px;
         }
-
-        .text-block {
-            text-align: center;
-
-            .editor {
-                color: $head-clr;
-                font-size: 30px;
-                padding: 0 6px;
-                font-family: "Overpass", sans-serif;
-                font-weight: 600;
-            }
-
-            .editor-info {
-                margin-top: 40px;
-                font-size: 20px;
-                padding: 0 25px;
-                margin-bottom: 60px;
-            }
-
-            .management {
-                color: $head-clr;
-                font-size: 30px;
-                padding: 0 5px;
-                font-family: "Overpass", sans-serif;
-                font-weight: 600;
-            }
-
-            .manage-info {
-                margin-top: 40px;
-                font-size: 20px;
-                padding: 0 25px;
-                margin-bottom: 80px;
-            }
+        // img.editor-desktop {
+        //         position: absolute;
+        //         left: 60%;
+        //         top: 8%;
+        //         width: 62%;
+        //         visibility: visible;
+        // display: none;
+    }
+    .text-block {
+        text-align: center;
+        .editor {
+            color: $head-clr;
+            font-size: 30px;
+            padding: 0 6px;
+            font-family: "Overpass", sans-serif;
+            font-weight: 600;
+        }
+        .editor-info {
+            margin-top: 40px;
+            font-size: 20px;
+            padding: 0 25px;
+            margin-bottom: 60px;
+        }
+        .management {
+            color: $head-clr;
+            font-size: 30px;
+            padding: 0 5px;
+            font-family: "Overpass", sans-serif;
+            font-weight: 600;
+        }
+        .manage-info {
+            margin-top: 40px;
+            font-size: 20px;
+            padding: 0 25px;
+            margin-bottom: 80px;
         }
     }
 }
 
+// .editor-desktop {
+//     opacity: 0;
+//     visibility: hidden;
+// }
 .four {
     background: #fff;
     display: flex;
@@ -70,7 +73,6 @@
     align-items: center;
     justify-content: center;
     // padding: 0 40px;
-
     .main-heading {
         color: $head-clr;
         font-size: 30px;
@@ -78,23 +80,27 @@
         font-family: "Overpass", sans-serif;
         font-weight: 600;
     }
-
     .content-wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         overflow: hidden;
-
-        img {
+        img.laptop-mobile {
             margin-top: 60px;
             width: 140%;
             margin-bottom: 80px;
         }
-
+        // img.laptop-desktop {
+        //     // position: absolute;
+        //     // right: 55%;
+        //     // top: 10%;
+        //     // width: 70%;
+        //     // visibility: visible;
+        //     display: none;
+        // }
         .text-block {
             text-align: center;
-
             .free {
                 color: $head-clr;
                 font-size: 30px;
@@ -102,14 +108,12 @@
                 font-family: "Overpass", sans-serif;
                 font-weight: 600;
             }
-
             .free-info {
                 margin-top: 40px;
                 font-size: 20px;
                 padding: 0 25px;
                 margin-bottom: 60px;
             }
-
             .tool {
                 color: $head-clr;
                 font-size: 30px;
@@ -117,13 +121,24 @@
                 font-family: "Overpass", sans-serif;
                 font-weight: 600;
             }
-
             .tool-info {
                 margin-top: 40px;
                 font-size: 20px;
                 padding: 0 25px;
                 margin-bottom: 80px;
             }
+            // img.laptop-desktop {
+            //     display: none;
+            // }
         }
     }
+}
+
+// .laptop-desktop {
+//     opacity: 0;
+//     visibility: hidden;
+// }
+.editor-desktop,
+.laptop-desktop {
+    display: none;
 }
