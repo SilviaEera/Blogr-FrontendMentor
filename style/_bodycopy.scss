@@ -16,21 +16,18 @@
     position: relative;
     // border: 1px solid green;
     // height: 62.5rem;
-    background-image: url("../images/bg-pattern-circles.svg"),
-        linear-gradient($grad3, $grad4);
+    background-image: url("../images/bg-pattern-circles.svg"), linear-gradient($grad3, $grad4);
     background-size: 163%, 100%;
     background-position: -90px -230px, 0% 0%;
     background-repeat: no-repeat, no-repeat;
     border-bottom-left-radius: 100px;
     border-top-right-radius: 100px;
-
     img {
         position: absolute;
         top: -186px;
         left: -8px;
         width: 100%;
     }
-
     .body-copy-text {
         .art-heading {
             color: #fff;
@@ -41,7 +38,6 @@
             padding-top: 230px;
             padding-bottom: 30px;
         }
-
         .art-info {
             color: #fff;
             margin-bottom: 120px;
@@ -49,7 +45,7 @@
             font-weight: 400;
             text-align: center;
             line-height: 30px;
-            padding: 0 25px;
+            padding: 0 25px 0 25px;
         }
     }
 }

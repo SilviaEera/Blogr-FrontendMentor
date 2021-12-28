@@ -360,7 +360,7 @@ ul {
   font-weight: 400;
   text-align: center;
   line-height: 30px;
-  padding: 0 25px;
+  padding: 0 25px 0 25px;
 }
 
 .footer {
@@ -487,6 +487,10 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   padding: 20px;
+}
+
+.menu-wrapper .menu-items-wrapper {
+  width: 100%;
 }
 
 .menu-wrapper .menu-items {
@@ -844,6 +848,338 @@ ul {
   }
   .bars {
     display: none;
+  }
+  .container {
+    background: #fff;
+  }
+  .hero {
+    width: 100%;
+    background: url("../images/bg-pattern-intro-mobile.svg"), -webkit-gradient(linear, left top, right top, from(#ff8f70), to(#ff3d54));
+    background: url("../images/bg-pattern-intro-mobile.svg"), linear-gradient(90deg, #ff8f70, #ff3d54);
+    background-size: 230%, 100%;
+    background-position: 30% 50%, 0% 0%;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 100px;
+    padding: 60px 60px 0 60px;
+  }
+  .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .logo {
+    width: 75px;
+  }
+  .hero-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 130px;
+  }
+  .hero-text h1 {
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: 700;
+  }
+  .hero-text h2 {
+    color: #fff;
+    font-size: 30px;
+    font-family: "Overpass", sans-serif;
+    font-weight: 300;
+    text-align: center;
+  }
+  .btn-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 50px;
+    width: 40%;
+    padding-bottom: 150px;
+  }
+  .btn-wrapper .btn {
+    border: 1px solid #fff;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    padding: 0 40px;
+    line-height: 55px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+  }
+  .btn-wrapper .btn:hover {
+    color: #ff525d;
+    background: #fff;
+    border: none;
+  }
+  .two {
+    position: relative;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    overflow: hidden;
+    padding: 0 100px 225px 100px;
+  }
+  .two .main-heading {
+    color: #1f3f5b;
+    font-size: 45px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-family: "Overpass", sans-serif;
+    font-weight: 600;
+  }
+  .two .content-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    overflow: hidden;
+  }
+  .two .content-wrapper img.editor-mobile {
+    display: none;
+  }
+  .two .content-wrapper img.editor-desktop {
+    position: absolute;
+    left: 60%;
+    top: 8%;
+    width: 62%;
+  }
+  .two .content-wrapper .text-block {
+    text-align: left;
+    width: 45%;
+    margin-top: 130px;
+  }
+  .two .content-wrapper .text-block .editor {
+    color: #1f3f5b;
+    font-size: 30px;
+    padding: 0 6px;
+    font-family: "Overpass", sans-serif;
+    font-weight: 600;
+  }
+  .two .content-wrapper .text-block .editor-info {
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 0 0px;
+    margin-bottom: 60px;
+  }
+  .two .content-wrapper .text-block .management {
+    color: #1f3f5b;
+    font-size: 30px;
+    padding: 0 5px;
+    font-family: "Overpass", sans-serif;
+    font-weight: 600;
+  }
+  .two .content-wrapper .text-block .manage-info {
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 0 0px;
+    margin-bottom: 80px;
+  }
+  .four {
+    position: relative;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 300px 100px 100px 100px;
+  }
+  .four .main-heading {
+    color: #1f3f5b;
+    font-size: 30px;
+    padding-top: 100px;
+    font-family: "Overpass", sans-serif;
+    font-weight: 600;
+  }
+  .four .content-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    overflow: hidden;
+  }
+  .four .content-wrapper img.laptop-mobile {
+    display: none;
+  }
+  .four .content-wrapper img.laptop-desktop {
+    position: absolute;
+    right: 60%;
+    top: 8%;
+    width: 62%;
+  }
+  .four .content-wrapper .text-block {
+    text-align: right;
+    width: 45%;
+  }
+  .four .content-wrapper .text-block .free {
+    color: #1f3f5b;
+    font-size: 30px;
+    padding: 0 6px;
+    font-family: "Overpass", sans-serif;
+    font-weight: 600;
+  }
+  .four .content-wrapper .text-block .free-info {
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 0 0px;
+    margin-bottom: 60px;
+  }
+  .four .content-wrapper .text-block .tool {
+    color: #1f3f5b;
+    font-size: 30px;
+    padding: 0 6px;
+    font-family: "Overpass", sans-serif;
+    font-weight: 600;
+  }
+  .four .content-wrapper .text-block .tool-info {
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 0 0px;
+    margin-bottom: 80px;
+  }
+  .three {
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 200px;
+  }
+  .body-copy {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    position: relative;
+    margin-bottom: 100px;
+    background-image: url("../images/bg-pattern-circles.svg"), -webkit-gradient(linear, left top, left bottom, from(#2c2d3f), to(#3f4164));
+    background-image: url("../images/bg-pattern-circles.svg"), linear-gradient(#2c2d3f, #3f4164);
+    background-size: 163%, 100%;
+    background-position: -90px -230px, 0% 0%;
+    background-repeat: no-repeat, no-repeat;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+  }
+  .body-copy img {
+    position: absolute;
+    top: -76px;
+    left: 30px;
+    width: 50%;
+  }
+  .body-copy .text-wrapper {
+    width: 45%;
+  }
+  .body-copy .body-copy-text {
+    width: 100%;
+  }
+  .body-copy .body-copy-text .art-heading {
+    color: #fff;
+    font-family: "Overpass", sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    text-align: left;
+    padding-top: 230px;
+    padding-bottom: 30px;
+  }
+  .body-copy .body-copy-text .art-info {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 30px;
+    padding: 0 65px 0 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
