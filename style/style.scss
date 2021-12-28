@@ -1,0 +1,56 @@
+//  # Front-end Style Guide
+
+// ## Layout
+
+// The designs were created to the following widths:
+
+// - Mobile: 375px
+// - Desktop: 1440px
+
+// ## Colors
+
+// ### Primary
+
+$hover-clr: hsl(356, 100%, 66%);
+// - Very light red (CTA hover background): hsl(355, 100%, 74%)
+$head-clr: hsl(208, 49%, 24%);
+
+// ### Neutral
+
+// - White (text): hsl(0, 0%, 100%)
+$footer-text: hsl(240, 2%, 79%);
+$grayish-blue: hsl(207, 13%, 34%);
+$footer-bg: hsl(240, 10%, 16%);
+
+// ### Gradient
+
+// Background gradient - Intro/CTA mobile nav:
+$grad1: hsl(13, 100%, 72%);
+$grad2: hsl(353, 100%, 62%);
+
+// Background gradient - body:
+
+$grad3: hsl(237, 17%, 21%);
+$grad4: hsl(237, 23%, 32%);
+
+// ## Typography
+
+// ### Body Copy
+
+// - Font size: 16px
+
+// ### Fonts
+
+// - Family: [Overpass](https://fonts.google.com/specimen/Overpass?preview.text_type=custom)
+// - Weights: 300, 600
+
+// - Family: [Ubuntu](https://fonts.google.com/specimen/Ubuntu?preview.text_type=custom)
+// - Weights: 400, 500, 700
+
+@import "general";
+@import "hero";
+@import "feature";
+@import "bodycopy";
+@import "footer";
+@import "menu";
+@import "responsive1440";
