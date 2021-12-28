@@ -2364,7 +2364,7 @@ ul {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding: 100px 0 100px 100px;
+    padding: 100px 0 100px 200px;
   }
   .footer img {
     margin-bottom: 50px;
@@ -2398,7 +2398,7 @@ ul {
     font-size: 16px;
   }
   .footer .footer-block:last-of-type {
-    padding-right: 250px;
+    padding-right: 330px;
   }
 }
 /*# sourceMappingURL=style.css.map */
