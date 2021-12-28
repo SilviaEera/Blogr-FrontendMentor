@@ -1153,8 +1153,8 @@ ul {
     margin-bottom: 100px;
     background-image: url("../images/bg-pattern-circles.svg"), -webkit-gradient(linear, left top, left bottom, from(#2c2d3f), to(#3f4164));
     background-image: url("../images/bg-pattern-circles.svg"), linear-gradient(#2c2d3f, #3f4164);
-    background-size: 163%, 100%;
-    background-position: -90px -230px, 0% 0%;
+    background-size: 100%, 100%;
+    background-position: -288px -800px, 0% 0%;
     background-repeat: no-repeat, no-repeat;
     border-bottom-left-radius: 100px;
     border-top-right-radius: 100px;
@@ -1187,6 +1187,61 @@ ul {
     text-align: left;
     line-height: 30px;
     padding: 0 65px 0 0;
+  }
+  .footer {
+    background: #fff;
+  }
+  .footer .container {
+    background: #25252d;
+    border-top-right-radius: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 100px 0 100px 100px;
+  }
+  .footer img {
+    margin-bottom: 50px;
+    margin-top: 0px;
+  }
+  .footer .footer-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .footer .footer-block h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    text-align: left;
+  }
+  .footer .footer-block a {
+    color: #c8c8cb;
+    padding: 5px 0;
+    font-size: 16px;
+  }
+  .footer .footer-block:last-of-type {
+    padding-right: 250px;
   }
 }
 /*# sourceMappingURL=style.css.map */
