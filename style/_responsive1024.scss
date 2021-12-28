@@ -1,4 +1,4 @@
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
     .menu {
         position: static;
         width: 100%;
@@ -12,7 +12,7 @@
         // border: 1px solid white;
         background: transparent;
         box-shadow: none;
-        width: 100%;
+        width: 95%;
         margin-top: 0;
         border-radius: 0;
         -webkit-border-radius: 0;
@@ -28,7 +28,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            width: 50%;
+            width: 55%;
         }
         .menu-items {
             position: relative;
@@ -217,7 +217,7 @@
         align-items: center;
         justify-content: space-around;
         margin-top: 50px;
-        width: 40%;
+        width: 60%;
         padding-bottom: 150px;
     }
     .btn-wrapper .btn {
@@ -252,12 +252,12 @@
         align-items: center;
         justify-content: center;
         overflow: hidden;
-        padding: 0 100px 225px 100px; // padding: 0 40px;
+        padding: 0 100px 150px 100px; // padding: 0 40px;
         .main-heading {
             color: $head-clr;
             font-size: 45px;
             padding-top: 100px;
-            padding-bottom: 50px;
+            padding-bottom: 0;
             font-family: "Overpass", sans-serif;
             font-weight: 600;
         }
@@ -276,8 +276,8 @@
             img.editor-desktop {
                 position: absolute;
                 left: 60%;
-                top: 8%;
-                width: 62%;
+                top: 23%;
+                width: 70%;
                 display: block;
             }
             .text-block {
@@ -320,7 +320,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 300px 100px 270px 100px;
+        padding: 110px 100px 100px 100px;
         // padding: 0 40px;
         .main-heading {
             color: $head-clr;
@@ -343,9 +343,9 @@
             }
             img.laptop-desktop {
                 position: absolute;
-                right: 55%;
-                top: 10%;
-                width: 70%;
+                right: 50%;
+                top: 0;
+                width: 80%;
                 display: block;
             }
             .text-block {
@@ -387,7 +387,7 @@
         justify-content: center;
         align-items: center;
         // border: 1px solid red;
-        padding-top: 150px;
+        padding-top: 0px;
     }
     .body-copy {
         display: flex;
@@ -395,7 +395,7 @@
         justify-content: center;
         align-items: flex-end;
         position: relative;
-        margin-bottom: 185px;
+        margin-bottom: 100px;
         // border: 1px solid green;
         // height: 62.5rem;
         background-image: url("../images/bg-pattern-circles.svg"), linear-gradient($grad3, $grad4);
@@ -423,12 +423,12 @@
                 font-weight: 300;
                 font-size: 35px;
                 text-align: left;
-                padding-top: 230px;
+                padding-top: 80px;
                 padding-bottom: 30px;
             }
             .art-info {
                 color: #fff;
-                // margin-bottom: 120px;
+                margin-bottom: 56px;
                 font-size: 20px;
                 font-weight: 400;
                 text-align: left;
