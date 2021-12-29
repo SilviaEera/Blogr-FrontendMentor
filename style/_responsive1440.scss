@@ -145,15 +145,14 @@
             // display: block;
             color: $grayish-blue;
             font-weight: 400;
-            transition-duration: 0.5s;
+            transition: all linear 0.5s;
+            -webkit-transition: all linear 0.5s;
+            -moz-transition: all linear 0.5s;
+            -ms-transition: all linear 0.5s;
+            -o-transition: all linear 0.5s;
             &:hover {
                 color: $head-clr;
                 font-weight: 700;
-                transform: scale(1.2);
-                -webkit-transform: scale(1.2);
-                -moz-transform: scale(1.2);
-                -ms-transform: scale(1.2);
-                -o-transform: scale(1.2);
             }
         }
         display: none;

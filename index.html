@@ -20,7 +20,7 @@
                 <!-- menu -->
                 <nav class="menu menu-hide">
                     <div class="btn-close">
-                        <img src="./images/icon-close.svg" alt="">
+                        <img src="./images/icon-close.svg" alt="" />
                     </div>
 
                     <div class="menu-wrapper">
@@ -28,7 +28,7 @@
                             <div class="menu-items">
                                 <div class="menu-heading">
                                     <h4>Product</h4>
-                                    <img class="dropdown" src="./images/icon-arrow-dark.svg" alt="">
+                                    <img class="dropdown" src="./images/icon-arrow-dark.svg" alt="" />
                                 </div>
                                 <!-- sub-menu -->
                                 <div class="sub-menu">
@@ -42,7 +42,7 @@
                             <div class="menu-items">
                                 <div class="menu-heading">
                                     <h4>Company</h4>
-                                    <img class="dropdown" src="./images/icon-arrow-dark.svg" alt="">
+                                    <img class="dropdown" src="./images/icon-arrow-dark.svg" alt="" />
                                 </div>
                                 <!-- sub-menu -->
                                 <div class="sub-menu">
@@ -55,7 +55,7 @@
                             <div class="menu-items">
                                 <div class="menu-heading">
                                     <h4>Connect</h4>
-                                    <img class="dropdown" src="./images/icon-arrow-dark.svg" alt="">
+                                    <img class="dropdown" src="./images/icon-arrow-dark.svg" alt="" />
                                 </div>
                                 <!-- sub-menu -->
                                 <div class="sub-menu">
@@ -66,15 +66,12 @@
                             </div>
                         </div>
 
-                        <hr>
+                        <hr />
 
                         <div class="btn-menu-wrapper">
-                            <a class=" btn btn-login" href="#">Login</a>
+                            <a class="btn btn-login" href="#">Login</a>
                             <a class="btn btn-signup" href="#">Signup</a>
                         </div>
-
-
-
                     </div>
                 </nav>
                 <!-- manu end -->
@@ -98,7 +95,7 @@
 
         <div class="content-wrapper">
             <img class="editor-mobile" src="./images/illustration-editor-mobile.svg" alt="" />
-            <img src="./images/illustration-editor-desktop.svg" alt="" class="editor-desktop">
+            <img src="./images/illustration-editor-desktop.svg" alt="" class="editor-desktop" />
             <div class="text-block">
                 <h2 class="editor">Introducing an extensible editor</h2>
                 <p class="editor-info">
@@ -136,7 +133,7 @@
     <section id="four" class="four">
         <div class="content-wrapper">
             <img class="laptop-mobile" src="./images/illustration-laptop-mobile.svg" alt="" />
-            <img src="./images/illustration-laptop-desktop.svg" alt="" class="laptop-desktop">
+            <img src="./images/illustration-laptop-desktop.svg" alt="" class="laptop-desktop" />
             <div class="text-block">
                 <h2 class="free">Free, open, simple</h2>
                 <p class="free-info">
@@ -154,7 +151,7 @@
 
     <section class="footer" id="footer">
         <div class="container">
-            <img src="./images/logo.svg" alt="">
+            <img src="./images/logo.svg" alt="" />
             <div class="footer-block">
                 <!--  -->
                 <h3>Product</h3>
@@ -182,23 +179,22 @@
                 <a href="#">LinkedIn</a>
             </div>
         </div>
-        </div>
+        <!-- </div> -->
     </section>
-
 
     <script>
         const btnClose = document.querySelector(".btn-close");
-        const menu = document.querySelector('.menu');
-        const btnBars = document.querySelector('.bars');
+        const menu = document.querySelector(".menu");
+        const btnBars = document.querySelector(".bars");
 
         btnClose.addEventListener("click", menuHideShow);
-        btnBars.addEventListener('click', menuHideShow);
+        btnBars.addEventListener("click", menuHideShow);
 
         function menuHideShow() {
             // console.log('clicked');
-            menu.classList.toggle('menu-hide');
-            btnBars.classList.toggle('bars-hide')
-        };
+            menu.classList.toggle("menu-hide");
+            btnBars.classList.toggle("bars-hide");
+        }
     </script>
 </body>
 
