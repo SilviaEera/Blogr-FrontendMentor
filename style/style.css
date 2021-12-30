@@ -127,7 +127,6 @@ ul {
 .btn-wrapper .btn:hover {
   color: #ff525d;
   background: #fff;
-  border: none;
 }
 
 .two {
@@ -603,7 +602,6 @@ ul {
 .menu-wrapper .btn-menu-wrapper .btn:hover {
   background: linear-gradient(135deg, #ff8f70, #ff3d54);
   color: #fff;
-  border: none;
 }
 
 .sub-menu {
@@ -812,7 +810,6 @@ ul {
   .menu-wrapper .btn-menu-wrapper .btn:hover {
     background: #fff;
     color: #4b5862;
-    border: none;
   }
   .menu-wrapper .btn-menu-wrapper .btn-login {
     margin-right: 30px;
@@ -947,7 +944,6 @@ ul {
   .btn-wrapper .btn:hover {
     color: #ff525d;
     background: #fff;
-    border: none;
   }
   .two {
     position: relative;
@@ -1389,7 +1385,6 @@ ul {
   .menu-wrapper .btn-menu-wrapper .btn:hover {
     background: #fff;
     color: #4b5862;
-    border: none;
   }
   .menu-wrapper .btn-menu-wrapper .btn-login {
     margin-right: 30px;
@@ -1524,7 +1519,6 @@ ul {
   .btn-wrapper .btn:hover {
     color: #ff525d;
     background: #fff;
-    border: none;
   }
   .two {
     position: relative;
@@ -1965,7 +1959,6 @@ ul {
   .menu-wrapper .btn-menu-wrapper .btn:hover {
     background: #fff;
     color: #4b5862;
-    border: none;
   }
   .menu-wrapper .btn-menu-wrapper .btn-login {
     margin-right: 30px;
@@ -2100,7 +2093,6 @@ ul {
   .btn-wrapper .btn:hover {
     color: #ff525d;
     background: #fff;
-    border: none;
   }
   .two {
     position: relative;

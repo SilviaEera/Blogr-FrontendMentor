@@ -1,14 +1,14 @@
 .container {
     background: #fff;
 }
+
 .hero {
     // height: 600px;
     width: 100%;
     // border: 1px solid #000; //temporary
     // bg image
     // background: linear-gradient(90deg, $grad1, $grad2);
-    background: url("../images/bg-pattern-intro-mobile.svg"),
-        linear-gradient(90deg, $grad1, $grad2);
+    background: url("../images/bg-pattern-intro-mobile.svg"), linear-gradient(90deg, $grad1, $grad2);
     background-size: 350%, 100%;
     background-position: 36% 35%, 0% 0%;
     background-repeat: no-repeat;
@@ -77,10 +77,8 @@
     -moz-border-radius: 5rem;
     -ms-border-radius: 5rem;
     -o-border-radius: 5rem;
-
     &:hover {
         color: $hover-clr;
         background: #fff;
-        border: none;
     }
 }
